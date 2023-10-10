@@ -55,7 +55,7 @@
             <div class="row g-5">
                 <div class="col-md-9 col-lg-4 wow fadeIn" data-wow-delay="0.1s">
                     <a href="index.html" class="d-inline-block mb-3">
-                        <img src="{{asset('assets/img/logo/logo.png')}}" alt="Logo-Efecto">
+                        <img src="{{asset('assets/img/logo/logo.png')}}" alt="Logo-Efecto" width="200">
                     </a>
                 </div>
                 <div class="col-md-9 col-lg-4 wow fadeIn" data-wow-delay="0.3s">
