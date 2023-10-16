@@ -60,15 +60,15 @@
                 </div>
                 <div class="col-md-9 col-lg-4 wow fadeIn" data-wow-delay="0.3s">
 
-                    <p><i class="fa fa-phone-alt me-3"></i>55 5833 2427</p>
-                    <p><i class="fa fa-envelope me-3"></i>contacto@</p>
+                    <p><i class="fa fa-phone-alt me-3"></i><a href="tel:+525558332427" target="_blank" style="color:#fff">55 5833 2427</a></p>
+                    <p><i class="fa fa-envelope me-3"></i> <a href="mailto:contacto@efectoestrategico" style="color:#fff">contacto@efectoestrategico</a></p>
                     <div class="d-flex pt-2">
 
-                        <a class="btn btn-outline-light btn-social" href="https://www.tiktok.com/@contactcenteref">Tk</a>
-                        <a class="btn btn-outline-light btn-social" href="https://www.youtube.com/@contactcenteref"><i class="fab fa-youtube"></i></a>
-                        <a class="btn btn-outline-light btn-social" href="https://www.facebook.com/ContactCenterEF/"><i class="fab fa-facebook"></i></a>
-                        <a class="btn btn-outline-light btn-social" href="https://www.instagram.com/equipocontactcenter/"><i class="fab fa-instagram"></i></a>
-                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-whatsapp"></i></a>
+                        <a class="btn btn-outline-light btn-social" href="https://www.tiktok.com/@contactcenteref" target="_blank">Tk</a>
+                        <a class="btn btn-outline-light btn-social" href="https://www.youtube.com/@contactcenteref" target="_blank"><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-outline-light btn-social" href="https://www.facebook.com/ContactCenterEF/" target="_blank"><i class="fab fa-facebook"></i></a>
+                        <a class="btn btn-outline-light btn-social" href="https://www.instagram.com/equipocontactcenter/" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a class="btn btn-outline-light btn-social" target="_blank" href="https://api.whatsapp.com/send?phone=+521555833242&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20."><i class="fab fa-whatsapp"></i></a>
                     </div>
                 </div>
                 <div class="col-md-9 col-lg-4 wow fadeIn" data-wow-delay="0.5s">
@@ -86,7 +86,7 @@
             <div class="copyright">
                 <div class="row">
                     <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                        &copy; <a class="border-bottom" href="#">EFECTO ESTRATÉGICO</a>, All Right Reserved.
+                        &copy; <a class="border-bottom" href="#0">EFECTO ESTRATÉGICO</a>, All Right Reserved.
                     </div>
                 </div>
             </div>

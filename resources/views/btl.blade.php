@@ -5,12 +5,12 @@
         <div class="row g-5 pt-5">
             <div class="col-lg-6 align-self-center text-center text-lg-start mb-lg-5">
                 <h1 class="display-4 text-white mb-4 animated slideInRight">Agencia BTL</h1>  <h1 class="display-4 text-white mb-4 animated slideInRight">retail & street mkt</h1>
-                <h1>
+                <h1 class="text-white">
                     -Influimos en la decisión de compra</h1>
-                <h1> Creamos experiencias de marca</h1>
+                <h1 class="text-white"> Creamos experiencias de marca</h1>
 
-               
-                
+
+
             </div>
         </div>
     </div>
@@ -23,7 +23,7 @@
                 <p class="text-center">¡Influimos en la decisión de compra!</p>
             </div>
         <div class="col-lg-8 align-self-centerb mb-5 wow fadeIn" data-wow-delay="0.3s">
-            +15 años haciendo marketing tangible. Creamos experiencias valiosas entre las marcas y sus clientes; estrategias para influir en la decisión de compra, generar demanda e 
+            +15 años haciendo marketing tangible. Creamos experiencias valiosas entre las marcas y sus clientes; estrategias para influir en la decisión de compra, generar demanda e
             impactar en la rotación de producto directamente en el punto de venta.
         </div>
 
@@ -49,17 +49,17 @@
                 Estamos en el lugar y el momento que se toman las decisiones de compra.
                 </p>
             </div>
-          
+
           </div>
         </div>
         <div class="col-lg-4">
             <div class="card">
                 <img class="card-img-top img-fluid" src="{{asset('assets/img/btl/btl-2.jpg')}}" alt="Card image">
-    
+
                 <div class="card-body">
-    
+
                   <h4 class="card-title"><a>Street MKT</a></h4>
-    
+
                   <p class="card-text">
 
                     El street marketing más vigente que nunca.</p>
@@ -67,17 +67,17 @@
                     Ejecución face to face que acerca a las marcas con sus clientes y consumidores.
                     </p>
                 </div>
-              
+
               </div>
             </div>
             <div class="col-lg-4">
                 <div class="card">
                     <img class="card-img-top img-fluid" src="{{asset('assets/img/btl/btl-3.jpg')}}" alt="Card image">
-        
+
                     <div class="card-body">
-        
+
                       <h4 class="card-title"><a>Experiencia de Marca</a></h4>
-        
+
                       <p class="card-text">
 
                         El Punto de Venta es nuestra trinchera
@@ -86,7 +86,7 @@
                         Estamos en el lugar y el momento que se toman las decisiones de compra.
                         </p>
                     </div>
-                  
+
                   </div>
                 </div>
         </div>
@@ -97,7 +97,7 @@
         <div class="row g-5 align-items-center">
             <div class="col-6 wow fadeIn" data-wow-delay="0.1s">
                 <h1>El Punto de Venta es nuestra trinchera</h1>
-                <p>Ahí estamos para influir en la decisión de compra, generar demanda e 
+                <p>Ahí estamos para influir en la decisión de compra, generar demanda e
                     impactar en la rotación de producto. ¡Directamente en el punto de venta!</p>
                 <img class="img-fluid" src="{{asset('assets/img/btl/btl-4.jpg')}}" alt="reclutamiento_img">
         </div>
@@ -115,7 +115,7 @@
 <p>
 
     En un mundo tan digitalizado como en el que hoy vivimos, el marketing face to face toma una gran relevancia para las marcas.
-    
+
     Ejecutamos con excelencia las estrategias para acercar a las marcas con sus clientes y consumidores. Creamos interacción con la marca.
     </p>
             </div>
@@ -127,7 +127,7 @@
                     <div class="box"><img class="img-fluid" src="{{asset('assets/img/btl/btl-7.jpg')}}" alt="sta"></div>
                 </div>
             </div>
-            
+
         <div class="col-lg-6 align-center mb-5 wow fadeIn" data-wow-delay="0.3s">
             <h1>
                 Nosotros lo hacemos
@@ -136,7 +136,7 @@
                 <div class="box"><img class="img-fluid" src="{{asset('assets/img/btl/btl-6.jpg')}}" alt="star" ></div>
             </div>
         </div>
-      
+
     </div>
     </div>
 </div>
@@ -148,7 +148,7 @@
                 <h1 class=" mb-4 animated slideInRight">
 
                     Una experiencia valiosa
-                    
+
                     fortalece el vínculo con la marca
                     </h1>
                     <p>Hacemos de tu evento una experiencia memorable. Nosotros nos encargamos de la producción y la logística integral.</p>
@@ -189,7 +189,7 @@
                     COBERTURA NACIONAL
                     </h1>
             </div
-            
+
 ></div>
 </div>
 </div>
@@ -201,5 +201,5 @@
 <style>
 .box {
     width: 400px }
- 
+
 </style>
