@@ -18,8 +18,10 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="well well-sm">
-                                <form class="form-horizontal" action="#0"  role="form" enctype="multipart/form-data">
+                                <form class="form-horizontal" action="#0" id="form-submit" role="form" enctype="multipart/form-data">
                                     @csrf
+                                    {!! RecaptchaV3::initJs() !!}
+                                    {!! RecaptchaV3::field('register') !!}
                                     <fieldset>
                                         <legend class="text-center header">En Efecto Estratégico siempre tenemos la solución a lo que estás buscando...¡Únete a nuestro equipo</legend>
                                         <div class="form-group mt-4">
@@ -74,7 +76,8 @@
                                         <hr>
                                         <div class="form-group ma-4">
                                             <div class="col-md-12 text-center">
-                                                <button type="button" id="BtnSubmitDisabled" class="btn btn-primary btn-lg">Enviar</button>
+                                                <button type="submit" id="form-submit" class="btn btn-primary btn-lg">Enviar</button>
+                                                <hr>
                                                 <div class="ma-4">
                                                     <div id="loading" class="alert-primary text-center hide"></div>
                                                     <div id="error" class="alert-danger text-center hide"></div>
@@ -104,6 +107,7 @@
 
 @endsection
 @section('script')
+<script src="https://www.google.com/recaptcha/api.js"></script>
 <script type="text/javascript">
     $('#form-submit').submit(function(e) {
         $('#loading').show();
@@ -115,7 +119,7 @@
         e.preventDefault();
         let fd = new FormData(this);
         $.ajax({
-            url: "{{ route('contact.post') }}",
+            url: "{{ route('bolsa.post') }}",
             data: fd,
             type: "POST",
             dataType: 'json',

@@ -20,6 +20,8 @@
                             <div class="well well-sm">
                                 <form class="form-horizontal" action="#0" id="form-submit" role="form" enctype="multipart/form-data">
                                     @csrf
+                                    {!! RecaptchaV3::initJs() !!}
+                                    {!! RecaptchaV3::field('register') !!}
                                     <fieldset>
                                         <legend class="text-center header">Contactanos</legend>
                                         <div class="form-group mt-4">
@@ -68,6 +70,7 @@
                                         <div class="form-group ma-4">
                                             <div class="col-md-12 text-center">
                                                 <button type="submit" id="BtnSubmit" class="btn btn-primary btn-lg">Enviar</button>
+                                                <hr>
                                                 <div class="ma-4">
                                                     <div id="loading" class="alert-primary text-center hide"></div>
                                                     <div id="error" class="alert-danger text-center hide"></div>
@@ -97,6 +100,8 @@
 
 @endsection
 @section('script')
+<script src="https://www.google.com/recaptcha/api.js"></script>
+
 <script type="text/javascript">
     $('#form-submit').submit(function(e) {
         $('#loading').show();
@@ -128,12 +133,12 @@
 
             },
             error: function(errors) {
-
                 $('#success').hide();
                 $("#BtnSubmit").prop("disabled", false);
                 if (errors.status == 422) {
                     mensajes = errors.responseJSON.errors;
                     printErrorMsg(mensajes);
+
                 }
                 if (errors.status == 401) {
                     window.location.href = '/';

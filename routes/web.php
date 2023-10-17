@@ -1,6 +1,8 @@
 <?php
+use App\Http\Controllers\BolsaController;
 use App\Http\Controllers\ContactController;
 use Illuminate\Support\Facades\Route;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -49,3 +51,5 @@ Route::get('/bolsa', function () {
 
 
 Route::post('contact/send', [ContactController::class, 'send'])->name('contact.post');
+
+Route::post('bolsa/send', [BolsaController::class, 'send'])->name('bolsa.post');

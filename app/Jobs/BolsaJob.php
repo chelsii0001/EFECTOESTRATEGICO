@@ -1,8 +1,9 @@
 <?php
 
-namespace App\Jobs\Contact;
+namespace App\Jobs;
 
-use App\Mail\Contact\SendMail;
+
+use App\Mail\Bolsa\bolsaMail;
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldBeUnique;
 use Illuminate\Contracts\Queue\ShouldQueue;
@@ -11,7 +12,7 @@ use Illuminate\Queue\InteractsWithQueue;
 use Illuminate\Queue\SerializesModels;
 use Illuminate\Support\Facades\Mail;
 
-class MailJob implements ShouldQueue
+class BolsaJob implements ShouldQueue
 {
     use Dispatchable, InteractsWithQueue, Queueable, SerializesModels;
 
@@ -32,7 +33,7 @@ class MailJob implements ShouldQueue
     public function handle()
     {
 
-           $email = new SendMail($this->items);
+           $email = new bolsaMail($this->items);
             Mail::to('jonagtz.2002@gmail.com')->send($email);
             //Mail::to('contacto@efectoestrategico.com')->send($email);
     }

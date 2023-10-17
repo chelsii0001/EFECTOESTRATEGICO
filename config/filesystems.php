@@ -43,6 +43,10 @@ return [
             'visibility' => 'public',
             'throw' => false,
         ],
+        'public_bolsa' => [
+            'driver' => 'local',
+            'root'   => public_path() . '/assets/files/bolsa',
+        ],
 
         's3' => [
             'driver' => 's3',

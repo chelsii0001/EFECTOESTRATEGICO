@@ -59,6 +59,8 @@ return [
 
     'asset_url' => env('ASSET_URL'),
 
+    'services.recaptcha.secret'  => env('RECAPTCHAV3_SECRET'),
+
     /*
     |--------------------------------------------------------------------------
     | Application Timezone

@@ -3,7 +3,7 @@
     <div class="container">
         <nav class="navbar navbar-expand-lg navbar-dark p-0">
             <a href="{{ route('/') }}" class="navbar-brand">
-             <img src="{{asset('assets/img/logo/logo.png')}}" alt="Logo-Efecto" width="200">
+             <img src="{{asset('assets/img/logo/logo.png')}}" alt="Logo-Efecto" width="150">
             </a>
             <button type="button" class="navbar-toggler ms-auto me-0" data-bs-toggle="collapse"
                 data-bs-target="#navbarCollapse">
