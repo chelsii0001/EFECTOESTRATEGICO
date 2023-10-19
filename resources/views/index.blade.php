@@ -9,7 +9,7 @@
                     <div class="btn btn-sm border rounded-pill text-white px-3 mb-3 animated slideInRight">Soluciones corporativas.</div>
                     <h1 class="display-4 text-white mb-4 animated slideInRight">Efecto Estratégico</h1>
 
-                    <a href="{{ route('contacto') }}" class="btn btn-outline-light py-sm-3 px-sm-5 rounded-pill animated slideInRight">Contactanos</a>
+                    <a href="{{ route('contacto') }}" class="btn btn-outline-light py-sm-3 px-sm-5 rounded-pill animated slideInRight">Contáctanos</a>
                 </div>
             </div>
         </div>
@@ -46,7 +46,7 @@
                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
 
                     <h1 class="mb-4">Ayudamos a crecer su negocio</h1>
-                    <p class="mb-4">En Efecto Estrategico, somos aliados de nuestros clientes, desde hace 20 años,  brindamos tranquilidad y confianza ofreciendo servicios flexibles con asesoría de manera rápida y efectiva.
+                    <p class="mb-4">En Efecto Estratégico, somos aliados de nuestros clientes, desde hace 20 años,  brindamos tranquilidad y confianza al ofrecer servicios flexibles, con asesoría de manera rápida y efectiva.
 
                         Adaptamos nuestros procedimientos a las necesidades de su negocio.
 
