@@ -19,7 +19,7 @@
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" style="color: #fff">Contacto</a>
                         <div class="dropdown-menu bg-light mt-2">
-                            <a href="{{ route('contacto') }}" class="dropdown-item">Contactanos</a>
+                            <a href="{{ route('contacto') }}" class="dropdown-item">Contáctanos</a>
                             <a href="{{ route('bolsa') }}" class="dropdown-item">Bolsa de Trabajo</a>
                         </div>
                     </div>
