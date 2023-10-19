@@ -46,9 +46,10 @@
                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
 
                     <h1 class="mb-4">Ayudamos a crecer su negocio</h1>
-                    <p class="mb-4">En Efecto Estratégico, somos aliados de nuestros clientes, desde hace 20 años,  brindamos tranquilidad y confianza al ofrecer servicios flexibles, con asesoría de manera rápida y efectiva.
+                    <p class="mb-4">En Efecto Estratégico, somos aliados de nuestros clientes desde hace 20 años,  brindando tranquilidad y confianza al ofrecer servicios flexibles, con asesoría de manera rápida y efectiva.
 
                         Adaptamos nuestros procedimientos a las necesidades de su negocio.
+
 
                         Nuestro compromiso es la calidad y la satisfacción total de los requerimientos de nuestros clientes proporcionándoles información que les permita la toma de decisiones oportunamente. </p>
 
