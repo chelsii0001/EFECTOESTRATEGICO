@@ -23,7 +23,7 @@
                                     {!! RecaptchaV3::initJs() !!}
                                     {!! RecaptchaV3::field('register') !!}
                                     <fieldset>
-                                        <legend class="text-center header">Contactanos</legend>
+                                        <legend class="text-center header">Contáctanos</legend>
                                         <div class="form-group mt-4">
                                             <div class="input-group mb-3">
                                                 <div class="input-group-prepend">

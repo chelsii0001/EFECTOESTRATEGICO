@@ -129,7 +129,7 @@
                 'X-CSRF-Token': '{{ csrf_token() }}',
             },
             success: function(data) {
-                $('#success').text('MENSAJE ENVIANDO, PRONTO NOS PONDREMOS EN CONTACTO CONTIGO');
+                $('#success').text('RECIBIMOS TU CV, PRONTO ENTRAREMOS EN CONTACTO CONTIGO');
                 $('#success').show();
                 $("#form-submit").trigger("reset");
                 $("#BtnSubmit").prop("disabled", false);
