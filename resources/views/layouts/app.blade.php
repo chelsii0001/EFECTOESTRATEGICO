@@ -8,7 +8,7 @@
     <meta content="" name="keywords">
     <meta content="" name="description">
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <link rel="icon" href="{{asset('assets/img/logo/efecto.ico')}}" type="icon">
+    <link rel="icon" href="{{ asset('assets/img/logo/efecto.ico') }}" type="icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -21,14 +21,14 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
     <!-- Libraries Stylesheet -->
-    <link href="{{ asset('assets/lib/animate/animate.min.css')}}" rel="stylesheet">
-    <link href="{{ asset('assets/lib/owlcarousel/assets/owl.carousel.min.css')}}" rel="stylesheet">
+    <link href="{{ asset('assets/lib/animate/animate.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('assets/lib/owlcarousel/assets/owl.carousel.min.css') }}" rel="stylesheet">
 
     <!-- Customized Bootstrap Stylesheet -->
-    <link href="{{ asset('assets/css/bootstrap.min.css')}}" rel="stylesheet">
+    <link href="{{ asset('assets/css/bootstrap.min.css') }}" rel="stylesheet">
 
     <!-- Template Stylesheet -->
-    <link href="{{ asset('assets/css/style.css')}}" rel="stylesheet">
+    <link href="{{ asset('assets/css/style.css') }}" rel="stylesheet">
 </head>
 
 <body>
@@ -55,20 +55,29 @@
             <div class="row g-5">
                 <div class="col-md-9 col-lg-4 wow fadeIn" data-wow-delay="0.1s">
                     <a href="index.html" class="d-inline-block mb-3">
-                        <img src="{{asset('assets/img/logo/logo.png')}}" alt="Logo-Efecto" width="200">
+                        <img src="{{ asset('assets/img/logo/logo.png') }}" alt="Logo-Efecto" width="200">
                     </a>
                 </div>
                 <div class="col-md-9 col-lg-4 wow fadeIn" data-wow-delay="0.3s">
 
-                    <p><i class="fa fa-phone-alt me-3"></i><a href="tel:+525558332427" target="_blank" style="color:#fff">55 5833 2427</a></p>
-                    <p><i class="fa fa-envelope me-3"></i> <a href="mailto:contacto@efectoestrategico" style="color:#fff">contacto@efectoestrategico</a></p>
+                    <p><i class="fa fa-phone-alt me-3"></i><a href="tel:+525558332427" target="_blank"
+                            style="color:#fff">55 5833 2427</a></p>
+                    <p><i class="fa fa-envelope me-3"></i> <a href="mailto:contacto@efectoestrategico"
+                            style="color:#fff">contacto@efectoestrategico</a></p>
                     <div class="d-flex pt-2">
 
-                        <a class="btn btn-outline-light btn-social" href="https://www.tiktok.com/@contactcenteref" target="_blank">Tk</a>
-                        <a class="btn btn-outline-light btn-social" href="https://www.youtube.com/@contactcenteref" target="_blank"><i class="fab fa-youtube"></i></a>
-                        <a class="btn btn-outline-light btn-social" href="https://www.facebook.com/ContactCenterEF/" target="_blank"><i class="fab fa-facebook"></i></a>
-                        <a class="btn btn-outline-light btn-social" href="https://www.instagram.com/equipocontactcenter/" target="_blank"><i class="fab fa-instagram"></i></a>
-                        <a class="btn btn-outline-light btn-social" target="_blank" href="https://api.whatsapp.com/send?phone=+521555833242&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20."><i class="fab fa-whatsapp"></i></a>
+                        <a class="btn btn-outline-light btn-social" href="https://www.tiktok.com/@efectoestrategico"
+                            target="_blank">Tk</a>
+                        <a class="btn btn-outline-light btn-social"
+                            href="https://www.linkedin.com/company/82517296/admin/feed/posts/" target="_blank"><i
+                                class="fab fa-linkedin"></i></a>
+                        <a class="btn btn-outline-light btn-social" href="https://www.facebook.com/EfectoEst"
+                            target="_blank"><i class="fab fa-facebook"></i></a>
+                        <a class="btn btn-outline-light btn-social" href="https://www.instagram.com/efectoestrategico/"
+                            target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a class="btn btn-outline-light btn-social" target="_blank"
+                            href="https://api.whatsapp.com/send?phone=+5215573560438&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20."><i
+                                class="fab fa-whatsapp"></i></a>
                     </div>
                 </div>
                 <div class="col-md-9 col-lg-4 wow fadeIn" data-wow-delay="0.5s">
@@ -76,7 +85,6 @@
                     <a class="btn btn-link" href="{{ route('/') }}">Inicio</a>
                     <a class="btn btn-link" href="{{ route('inbound') }}">Inbound Marketing</a>
                     <a class="btn btn-link" href="{{ route('reclutamiento') }}">Reclutamiento Digital</a>
-                    <a class="btn btn-link" href="{{ route('call') }}">Call Center </a>
                     <a class="btn btn-link" href="{{ route('btl') }}">Agencia BTL</a>
                 </div>
 
@@ -102,14 +110,14 @@
     <!-- JavaScript Libraries -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="{{ asset('assets/lib/wow/wow.min.js')}}"></script>
-    <script src="{{ asset('assets/lib/easing/easing.min.js')}}"></script>
-    <script src="{{ asset('assets/lib/waypoints/waypoints.min.js')}}"></script>
-    <script src="{{ asset('assets/lib/counterup/counterup.min.js')}}"></script>
-    <script src="{{ asset('assets/lib/owlcarousel/owl.carousel.min.js')}}"></script>
+    <script src="{{ asset('assets/lib/wow/wow.min.js') }}"></script>
+    <script src="{{ asset('assets/lib/easing/easing.min.js') }}"></script>
+    <script src="{{ asset('assets/lib/waypoints/waypoints.min.js') }}"></script>
+    <script src="{{ asset('assets/lib/counterup/counterup.min.js') }}"></script>
+    <script src="{{ asset('assets/lib/owlcarousel/owl.carousel.min.js') }}"></script>
     @yield('script')
     <!-- Template Javascript -->
-    <script src="{{ asset('assets/js/main.js')}}"></script>
+    <script src="{{ asset('assets/js/main.js') }}"></script>
 </body>
 
 </html>
