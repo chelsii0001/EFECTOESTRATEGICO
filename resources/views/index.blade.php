@@ -241,11 +241,97 @@
             </div>
         </div>
         <div class="container py-5">
-                <div class="col-lg-12 wow fadeIn" data-wow-delay="0.1s">
-                    <h1 class="text-center">Marcas Internas.</h1>
-                    <img class="img-fluid" src="{{ asset('assets/img/Marcas-int.png')}}">
+            <h1 class="text-center pb-5">Marcas Internas.</h1>
+            <div class="row">
+                <div class="col-lg-4 wow fadeIn" data-wow-delay="0.1s">
+
+                    <div class="card" style="width: 18rem;">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Contact Center</h5>
+
+                          <a href="#" class="btn btn-primary">Ir al sitio web...</a>
+                        </div>
+                      </div>
+                      <div class="card" style="width: 18rem;">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Carry Delivery</h5>
+
+                          <a href="#" class="btn btn-primary">Ir al sitio web...</a>
+                        </div>
+                      </div>
+
+                      <div class="card pt-" style="width: 18rem;">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Alkon Green</h5>
+
+                          <a href="#" class="btn btn-primary">Ir al sitio web...</a>
+                        </div>
+                      </div>
+
+                </div>
+                <div class="col-lg-4 wow fadeIn" data-wow-delay="0.1s">
+
+                    <div class="card" style="width: 18rem;">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Wuffinder</h5>
+
+                          <a href="#" class="btn btn-primary">Ir al sitio web...</a>
+                        </div>
+                      </div>
+                      <div class="card" style="width: 18rem;">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Day Dock</h5>
+
+                          <a href="#" class="btn btn-primary">Ir al sitio web...</a>
+                        </div>
+                      </div>
+
+                      <div class="card pt-" style="width: 18rem;">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Risto Fast</h5>
+
+                          <a href="#" class="btn btn-primary">Ir al sitio web...</a>
+                        </div>
+                      </div>
+
+                </div>
+                <div class="col-lg-4 wow fadeIn" data-wow-delay="0.1s">
+
+                    <div class="card" style="width: 18rem;">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Fido y Lola</h5>
+
+                          <a href="#" class="btn btn-primary">Ir al sitio web...</a>
+                        </div>
+                      </div>
+                      <div class="card" style="width: 18rem;">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Synapse</h5>
+
+                          <a href="#" class="btn btn-primary">Ir al sitio web...</a>
+                        </div>
+                      </div>
+
+                      <div class="card pt-" style="width: 18rem;">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Make Goce</h5>
+
+                          <a href="#" class="btn btn-primary">Ir al sitio web...</a>
+                        </div>
+                      </div>
+
                 </div>
             </div>
+        </div>
         </div>
 
     <!-- Somos End -->
